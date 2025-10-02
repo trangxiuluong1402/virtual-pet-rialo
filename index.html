@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Pet - Rialo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐾 Rialo Virtual Pet 🐾</h1>
+
+  <div id="pet-container">
+    <img id="pet" src="https://i.ibb.co/4T8JgGz/cat.png" alt="Pet">
+  </div>
+
+  <div id="stats">
+    <p>Hunger: <span id="hunger">100</span></p>
+    <p>Happiness: <span id="happiness">100</span></p>
+    <p>Energy: <span id="energy">100</span></p>
+  </div>
+
+  <div id="actions">
+    <button onclick="feedPet()">🍖 Feed</button>
+    <button onclick="playPet()">🎾 Play</button>
+    <button onclick="sleepPet()">💤 Sleep</button>
+  </div>
+
+  <p id="status">Your pet is happy and healthy! 🎉</p>
+
+  <script src="game.js"></script>
+</body>
+</html>
